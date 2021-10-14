@@ -1,8 +1,10 @@
 
 public class IterativeSuche {
 	
-	static int zaehler = 0;
-	static int zaehler2 = 0;
+	//verändert
+	
+	private static int zaehler = 0;
+	private static int zaehler2 = 0;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
