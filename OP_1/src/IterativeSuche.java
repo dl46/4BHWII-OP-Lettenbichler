@@ -1,7 +1,7 @@
 
 public class IterativeSuche {
 	
-	//verändert
+	//verändert 2 3
 	
 	private static int zaehler = 0;
 	private static int zaehler2 = 0;
