@@ -21,9 +21,8 @@ public class Rekursion {
 	public static int rekursiveSumme(int anz) {
 		if(anz == 1) {
 			return 1;
-		}else {
-			return anz + rekursiveSumme(anz -1);
 		}
+		return anz + rekursiveSumme(anz -1);
 	}
 	
 	public static int iterativeHoch(int a, int b) {
@@ -37,9 +36,8 @@ public class Rekursion {
 	public static int rekursiveHoch(int a, int b) {
 		if(b == 0) {
 			return 1;
-		}else {
-			return a * rekursiveHoch(a, b-1);
 		}
+		return a * rekursiveHoch(a, b-1);
 	}
 	
 	
